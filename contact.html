@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <form onsubmit="handleForm(event)">
+            <label for="name">Name
+                <input type="text" name="name" id="name" />
+            </label>
+            <br />
+            <label for="age">Age
+                <input type="number" max="199" min="0" step="1" name="age" id="age" />
+            </label>
+            <br />
+            <label for="gender">Gender
+                <select name="gender" id="gender">
+                    <option value="M">Male</option>
+                    <option value="F">Femalr</option>
+                    <option value="N">Non-Binary</option>
+                </select>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
