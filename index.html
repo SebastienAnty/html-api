@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing With DOM</title>
+</head>
+<body>
+    <header>
+        <nav id="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <article id="lorem">
+            <h1>Our Favorite Coffees</h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nisi alias sed iure aut quia consectetur impedit facilis! 
+            Repudiandae blanditiis aspernatur quaerat, incidunt animi quod esse distinctio optio maxime illo quidem.
+            </p>
+            <button onclick="getCoffees('hot')">HOT</button>
+            <button onclick="getCoffees('iced')">ICED</button>
+            <hr>
+            <div id="coffees">
+                Click above to load coffee recipes
+            </div>
+            <hr/>
+        </article>
+    </main>
+    <footer>
+        &copy;2021 Sebastien-Moliere Anty
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
